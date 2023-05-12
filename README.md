@@ -54,7 +54,7 @@
 3. Определяем, какие значения не попадают в этот интервал.
 4. Считаем такие значения аномальными.
 
-![cl_rep_three_sigma.png](#)
+![cl_rep_three_sigma.png](assets/cl_rep_three_sigma.png)
 
 ### [Isolation Forest](https://github.com/rufous86/novelty_detection_qw/blob/main/ml_iForest.ipynb)
 

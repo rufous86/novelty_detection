@@ -228,3 +228,16 @@ display(df_pageblocks.head())
 print('df_shuttle')
 display(df_shuttle.head())
 ```
+---
+Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection:  
+[github](https://github.com/danieltan07/dagmm)  
+[paperswithcode](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for)  
+
+2018  
+The Deep Autoencoding Gaussian Mixture Model (DAGMM) is an unsupervised anomaly detection method that combines deep autoencoders and Gaussian mixture models for density estimation. The method utilizes a deep autoencoder to generate a low-dimensional representation and reconstruction error for each input data point, which is then fed into a Gaussian Mixture Model (GMM) [Source 4](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).
+
+Instead of using a decoupled two-stage training process and the standard Expectation-Maximization (EM) algorithm, DAGMM jointly optimizes the parameters of the deep autoencoder and the mixture model simultaneously in an end-to-end fashion. This is facilitated by a separate estimation network that helps in the parameter learning of the mixture model [Source 4](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).
+
+The joint optimization balances autoencoding reconstruction, density estimation of latent representation, and regularization. This helps the autoencoder escape from less attractive local optima and further reduce reconstruction errors, avoiding the need for pre-training [Source 4](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).
+
+Experimental results on several public benchmark datasets show that DAGMM significantly outperforms state-of-the-art anomaly detection techniques, achieving up to a 14% improvement based on the standard F1 score [Source 4](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).

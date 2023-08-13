@@ -146,7 +146,7 @@ ECOD работает в три основных этапа:
 
 2. Оценить вероятность хвоста: Используя вычисленные ECDF, ECOD оценивает хвостовые вероятности для каждой точки данных в каждом измерении.
 
-3. Вычислить оценки выбросов: ECOD агрегирует оцененные вероятности хвостов по всем измерениям для создания оценки выбросов для каждой точки данных arxiv.org, medium.com.
+3. Вычислить оценки выбросов: ECOD агрегирует оцененные вероятности хвостов по всем измерениям для создания оценки выбросов для каждой точки данных.
 
 https://arxiv.org/pdf/2201.00382v3.pdf  
 https://paperswithcode.com/paper/ecod-unsupervised-outlier-detection-using
@@ -155,9 +155,14 @@ https://paperswithcode.com/paper/ecod-unsupervised-outlier-detection-using
 
 ![cl_rep_ecod.png](assets/cl_rep_ecod.png)
 
-### [Deep Isolation Forest](https://github.com/xuhongzuo/deep-iforest)
 
 | TO-DO
+
+### VAE
+
+### [Deep Isolation Forest](https://github.com/xuhongzuo/deep-iforest)
+
+### SLAD [github](https://github.com/xuhongzuo/scale-learning) [arxiv](https://arxiv.org/abs/2305.16114)
 
 ---
 # Допы
@@ -241,3 +246,4 @@ Instead of using a decoupled two-stage training process and the standard Expecta
 The joint optimization balances autoencoding reconstruction, density estimation of latent representation, and regularization. This helps the autoencoder escape from less attractive local optima and further reduce reconstruction errors, avoiding the need for pre-training [Source](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).
 
 Experimental results on several public benchmark datasets show that DAGMM significantly outperforms state-of-the-art anomaly detection techniques, achieving up to a 14% improvement based on the standard F1 score [Source](https://paperswithcode.com/paper/deep-autoencoding-gaussian-mixture-model-for).
+

@@ -158,7 +158,7 @@ https://paperswithcode.com/paper/ecod-unsupervised-outlier-detection-using
 
 | TO-DO
 
-### VAE
+### AE
 
 ### [Deep Isolation Forest](https://github.com/xuhongzuo/deep-iforest)
 
